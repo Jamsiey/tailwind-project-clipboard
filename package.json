@@ -1,0 +1,16 @@
+{
+  "name": "section-04-simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tailwindcss -i ./input.css -o ./css/style.css ",
+  "watch": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
